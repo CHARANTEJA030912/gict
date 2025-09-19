@@ -40,7 +40,13 @@ function Footer() {
         </div>
 
         {/* Navbar Links in Footer */}
-        
+        <div className="footer-nav-links">
+          <Link to="/" className="footer-nav-item">Home</Link>
+          <Link to="/about" className="footer-nav-item">About</Link>
+          <Link to="/services" className="footer-nav-item">Services</Link>
+          <Link to="/projects" className="footer-nav-item">Projects</Link>
+          <Link to="/contact" className="footer-nav-item">Contact</Link>
+        </div>
       </div>
 
       {/* Bottom Copy */}
@@ -52,7 +58,3 @@ function Footer() {
 }
 
 export default Footer;
-
-
-
-
