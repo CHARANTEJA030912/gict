@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { NavLink, Link } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 import "./Navbar.css";
 
 function Navbar() {
@@ -13,9 +13,7 @@ function Navbar() {
   return (
     <nav className="custom-navbar">
       <div className="nav-container">
-        <Link to="/" className="brand" onClick={closeMenu}>
-          Gajulapalli Infra
-        </Link>
+        <div className="brand">Gajulapalli Infra</div>
 
         {/* Desktop Nav */}
         <div className="nav-links">
@@ -37,11 +35,11 @@ function Navbar() {
       {/* Mobile Menu */}
       {menuOpen && (
         <div className="mobile-menu">
-          <NavLink to="/" className={({ isActive }) => isActive ? "mobile-item active" : "mobile-item"} onClick={closeMenu}>Home</NavLink>
-          <NavLink to="/about" className={({ isActive }) => isActive ? "mobile-item active" : "mobile-item"} onClick={closeMenu}>About</NavLink>
-          <NavLink to="/services" className={({ isActive }) => isActive ? "mobile-item active" : "mobile-item"} onClick={closeMenu}>Services</NavLink>
-          <NavLink to="/projects" className={({ isActive }) => isActive ? "mobile-item active" : "mobile-item"} onClick={closeMenu}>Projects</NavLink>
-          <NavLink to="/contact" className={({ isActive }) => isActive ? "mobile-item active" : "mobile-item"} onClick={closeMenu}>Contact</NavLink>
+          <NavLink to="/" className="mobile-item" onClick={closeMenu}>Home</NavLink>
+          <NavLink to="/about" className="mobile-item" onClick={closeMenu}>About</NavLink>
+          <NavLink to="/services" className="mobile-item" onClick={closeMenu}>Services</NavLink>
+          <NavLink to="/projects" className="mobile-item" onClick={closeMenu}>Projects</NavLink>
+          <NavLink to="/contact" className="mobile-item" onClick={closeMenu}>Contact</NavLink>
         </div>
       )}
     </nav>
