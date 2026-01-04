@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/gict/static/css/main.6b6ac12a.css",
-    "main.js": "/gict/static/js/main.b8956e7e.js",
+    "main.css": "/gict/static/css/main.0a4dd510.css",
+    "main.js": "/gict/static/js/main.1088b516.js",
     "static/css/659.680e9e6c.chunk.css": "/gict/static/css/659.680e9e6c.chunk.css",
     "static/js/659.f7655d30.chunk.js": "/gict/static/js/659.f7655d30.chunk.js",
     "static/css/453.09d72ebe.chunk.css": "/gict/static/css/453.09d72ebe.chunk.css",
@@ -32,8 +32,8 @@
     "static/media/wardrobs.jpg": "/gict/static/media/wardrobs.2c24749bd4dcdc0ca7dd.jpg",
     "static/media/bedroom.jpg": "/gict/static/media/bedroom.ebd0a1fa43ae3389f701.jpg",
     "index.html": "/gict/index.html",
-    "main.6b6ac12a.css.map": "/gict/static/css/main.6b6ac12a.css.map",
-    "main.b8956e7e.js.map": "/gict/static/js/main.b8956e7e.js.map",
+    "main.0a4dd510.css.map": "/gict/static/css/main.0a4dd510.css.map",
+    "main.1088b516.js.map": "/gict/static/js/main.1088b516.js.map",
     "659.680e9e6c.chunk.css.map": "/gict/static/css/659.680e9e6c.chunk.css.map",
     "659.f7655d30.chunk.js.map": "/gict/static/js/659.f7655d30.chunk.js.map",
     "453.09d72ebe.chunk.css.map": "/gict/static/css/453.09d72ebe.chunk.css.map",
@@ -46,7 +46,7 @@
     "206.a4bad916.chunk.js.map": "/gict/static/js/206.a4bad916.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6b6ac12a.css",
-    "static/js/main.b8956e7e.js"
+    "static/css/main.0a4dd510.css",
+    "static/js/main.1088b516.js"
   ]
 }
